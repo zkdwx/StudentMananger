@@ -1,8 +1,4 @@
-<html>
-<body>
-<h2>
-    <a href="${pageContext.request.contextPath}/hello">hello</a>
-</h2>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<% response.sendRedirect("system/login"); %>
 
-</body>
-</html>
+
